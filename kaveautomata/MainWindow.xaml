@@ -7,14 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Name ="feketekave" Content="Fekete Kávé" HorizontalAlignment="Left" Margin="89,209,0,0" VerticalAlignment="Top"/>
-        <Button Name ="cappucino" Grid.Column="1" Content="Cappucino" HorizontalAlignment="Left" Margin="89,184,0,0" VerticalAlignment="Top"/>
-        <Button Name ="latte" Grid.Column="1" Content="Latte" HorizontalAlignment="Left" Margin="89,259,0,0" VerticalAlignment="Top"/>
-        <Button Name ="tejeskave" Grid.Column="1" Content="Tejeskávé" HorizontalAlignment="Left" Margin="89,234,0,0" VerticalAlignment="Top"/>
+        <Button Name ="feketekave" Content="Fekete Kávé" HorizontalAlignment="Left" Margin="89,209,0,0" VerticalAlignment="Top" Click="feketekave_Click"/>
+        <Button Name ="cappucino" Grid.Column="1" Content="Cappucino" HorizontalAlignment="Left" Margin="89,184,0,0" VerticalAlignment="Top" Click="cappucino_Click"/>
+        <Button Name ="latte" Grid.Column="1" Content="Latte" HorizontalAlignment="Left" Margin="89,259,0,0" VerticalAlignment="Top" Click="latte_Click"/>
+        <Button Name ="tejeskave" Grid.Column="1" Content="Tejeskávé" HorizontalAlignment="Left" Margin="89,234,0,0" VerticalAlignment="Top" Click="tejeskave_Click"/>
         <Button Name ="vaniliaskave" Grid.Column="1" Content="Vaniliás kávé" HorizontalAlignment="Left" Margin="89,159,0,0" VerticalAlignment="Top" Click="vaniliaskave_Click"/>
-        <Button Name ="jegeskave" Grid.Column="1" Content="Jegeskávé" HorizontalAlignment="Left" Margin="89,284,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.41,0.503"/>
-        <Button Name ="forrocsoki" Grid.Column="1" Content="Forrócsoki" HorizontalAlignment="Left" Margin="89,309,0,0" VerticalAlignment="Top"/>
-        <Button Name ="forroviz" Grid.Column="1" Content="Forró víz" HorizontalAlignment="Left" Margin="89,334,0,0" VerticalAlignment="Top"/>
+        <Button Name ="jegeskave" Grid.Column="1" Content="Jegeskávé" HorizontalAlignment="Left" Margin="89,284,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.41,0.503" Click="jegeskave_Click"/>
+        <Button Name ="forrocsoki" Grid.Column="1" Content="Forrócsoki" HorizontalAlignment="Left" Margin="89,309,0,0" VerticalAlignment="Top" Click="forrocsoki_Click"/>
+        <Button Name ="forroviz" Grid.Column="1" Content="Forró víz" HorizontalAlignment="Left" Margin="89,334,0,0" VerticalAlignment="Top" Click="forroviz_Click"/>
         <Button Name ="Pluszcukor" Content="+ Cukor" HorizontalAlignment="Left" Margin="583,0,0,0" VerticalAlignment="Center" Click="Pluszcukor_Click"/>
         <Button Name ="Minuszcukor" Content="- Cukor" HorizontalAlignment="Left" Margin="583,179,0,0" VerticalAlignment="Top" Click="Minuszcukor_Click"/>
         <Button Name="rendelés"  Content="Rendelés" HorizontalAlignment="Left" Margin="358,254,0,0" VerticalAlignment="Top" Click="rendelés_Click"/>
