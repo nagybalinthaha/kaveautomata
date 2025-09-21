@@ -18,5 +18,17 @@
         <Button Name ="Pluszcukor" Content="+ Cukor" HorizontalAlignment="Left" Margin="583,0,0,0" VerticalAlignment="Center" Click="Pluszcukor_Click"/>
         <Button Name ="Minuszcukor" Content="- Cukor" HorizontalAlignment="Left" Margin="583,179,0,0" VerticalAlignment="Top" Click="Minuszcukor_Click"/>
         <Button Name="rendelés"  Content="Rendelés" HorizontalAlignment="Left" Margin="358,254,0,0" VerticalAlignment="Top" Click="rendelés_Click"/>
+        <StackPanel Margin="165,194,447,63">
+            <RadioButton Name="vaniliakaverad" Content="vanilliás kávé" Checked="vaniliakaverad_Checked"/>
+            <RadioButton Name="cappucinorad" Content="cappucino" Checked="cappucinorad_Checked"/>
+            <RadioButton Name="feketekaverad" Content="fekete kávé" Checked="feketekaverad_Checked"/>
+            <RadioButton Name="tejeskaverad" Content="tejeskávé" Checked="tejeskaverad_Checked"/>
+            <RadioButton Name="latterad" Content="latte" Checked="latterad_Checked"/>
+            <RadioButton Name="jegeskaverad" Content="jegeskávé" Checked="jegeskaverad_Checked"/>
+            <RadioButton Name="forrocsokirad" Content="forrócsoki" Checked="forrocsokirad_Checked"/>
+            <RadioButton Name="forrovizrad" Content="forró víz" Checked="forrovizrad_Checked"/>
+
+        </StackPanel>
+
     </Grid>
 </Window>

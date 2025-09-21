@@ -92,5 +92,39 @@ namespace kaveautomata
         {
             kávé= 50;
         }
+
+        private void vaniliakaverad_Checked(object sender, RoutedEventArgs e)
+        {
+            kávé = 400;
+        }
+
+        private void cappucinorad_Checked(object sender, RoutedEventArgs e)
+        {
+            kávé = 300;
+        }
+        private void feketekaverad_Checked(object sender, RoutedEventArgs e)
+        {
+            kávé = 250;
+        }
+        private void tejeskaverad_Checked(object sender, RoutedEventArgs e)
+        {
+            kávé = 400;
+        }
+        private void latterad_Checked(object sender, RoutedEventArgs e)
+        {
+            kávé = 300;
+        }
+        private void jegeskaverad_Checked(object sender, RoutedEventArgs e)
+        {
+            kávé = 450;
+        }
+        private void forrocsokirad_Checked(object sender, RoutedEventArgs e)
+        {
+            kávé = 500;
+        }
+        private void forrovizrad_Checked(object sender, RoutedEventArgs e)
+        {
+            kávé = 50;
+        }
     }
 }
