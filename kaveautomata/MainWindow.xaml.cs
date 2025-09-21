@@ -192,5 +192,10 @@ namespace kaveautomata
         {
             kávé = ar_forrov;
         }
+
+        private void vaniliakaverad_Checked_1(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
