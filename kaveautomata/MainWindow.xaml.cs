@@ -32,10 +32,6 @@ namespace kaveautomata
         int menny_cuk = 0;
         int kávé = 0;
 
-        private void vaniliaskave_Click(object sender, RoutedEventArgs e)
-        {
-            kávé = 400;              
-        }
 
         private void Pluszcukor_Click(object sender, RoutedEventArgs e)
         {
@@ -56,41 +52,6 @@ namespace kaveautomata
             MessageBox.Show((osszeg).ToString() + "ft");
             kávé = 0;
             menny_cuk = 0;
-        }
-
-        private void cappucino_Click(object sender, RoutedEventArgs e)
-        {
-            kávé = 300;
-        }
-
-        private void feketekave_Click(object sender, RoutedEventArgs e)
-        {
-            kávé = 250;
-        }
-
-        private void tejeskave_Click(object sender, RoutedEventArgs e)
-        {
-            kávé= 400;
-        }
-
-        private void latte_Click(object sender, RoutedEventArgs e)
-        {
-            kávé= 300;
-        }
-
-        private void jegeskave_Click(object sender, RoutedEventArgs e)
-        {
-            kávé= 450;
-        }
-
-        private void forrocsoki_Click(object sender, RoutedEventArgs e)
-        {
-            kávé= 500;
-        }
-
-        private void forroviz_Click(object sender, RoutedEventArgs e)
-        {
-            kávé= 50;
         }
 
         private void vaniliakaverad_Checked(object sender, RoutedEventArgs e)
