@@ -4,16 +4,15 @@
         Title="Kávéautomata" Height="450" Width="800" Background="White">
 
     <Grid>
-        <!-- Háttérkép -->
         <Image Source="kaveautomata13.png"
                Stretch="Uniform"
                HorizontalAlignment="Center"
                VerticalAlignment="Center"/>
 
-        <!-- Overlay gombok a kép fölött, arányosan -->
+
         <Viewbox Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center">
             <Canvas Width="800" Height="450">
-                <!-- Rádiógombok -->
+
                 <RadioButton Name="vaniliakaverad" Content="Vaníliás Kávé" Canvas.Left="322" Canvas.Top="117" Foreground="White" Checked="vaniliakaverad_Checked" HorizontalAlignment="Center" VerticalAlignment="Top"/>
                 <RadioButton Name="cappucinorad" Content="Cappucino" Canvas.Left="322" Canvas.Top="150" Foreground="White" Checked="cappucinorad_Checked" HorizontalAlignment="Center" VerticalAlignment="Top"/>
                 <RadioButton Name="feketekaverad" Content="Fekete Kávé" Canvas.Left="322" Canvas.Top="181" Foreground="White" Checked="feketekaverad_Checked" HorizontalAlignment="Center" VerticalAlignment="Top"/>
@@ -23,7 +22,6 @@
                 <RadioButton Name="forrocsokirad" Content="Forrócsoki" Canvas.Left="322" Canvas.Top="303" Foreground="White" Checked="forrocsokirad_Checked" HorizontalAlignment="Center" VerticalAlignment="Top"/>
                 <RadioButton Name="forrovizrad" Content="Forró víz" Canvas.Left="322" Canvas.Top="334" Foreground="White" Checked="forrovizrad_Checked" HorizontalAlignment="Center" VerticalAlignment="Top"/>
 
-                <!-- Gombok -->
                 <Button Name="rendeles" Content="Rendelés" Canvas.Left="458" Canvas.Top="197"
                         Click="rendelés_Click" Background="Transparent" BorderBrush="Transparent" Foreground="White" FontSize="8"/>
                 <Button Name="Pluszcukor" Content="+ Cukor" Canvas.Left="457" Canvas.Top="120"
